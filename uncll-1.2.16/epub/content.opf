@@ -1,0 +1,88 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="isbn-id">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">The Complete Lojban Language</dc:title>
+    <meta refines="#title" property="title-type">main</meta>
+    <meta refines="#title" property="file-as">Complete Lojban Language, The</meta>
+    <dc:creator id="creator">John Woldemar Cowan</dc:creator>
+    <meta refines="#creator" property="file-as">Woldemar, John Cowan</meta>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+    <!-- Note that the EPUB and the hardcover have different ISBNs -->
+    <dc:identifier id="isbn-id">urn:isbn:978-0-9660283-3-1</dc:identifier>
+    <meta refines="#isbn-id" property="identifier-type" scheme="onix:codelist5">15</meta>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2024-10-13T12:44:15Z</meta>
+    <meta name="cover" content="assets/media/cover.jpg"/>
+    <dc:publisher>The Logical Language Group</dc:publisher>
+    <dc:description>Version geklojban-1.2.16, Generated 2024-10-13</dc:description>
+    <dc:language>en</dc:language>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.html" media-type="application/xhtml+xml" />
+    <item properties="cover-image" id="cover_image" href="assets/media/cover.jpg" media-type="image/jpeg"/>
+    <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item href="final.css" id="css" media-type="text/css"/>
+<item id="assetsmediachapter2diagramsvgpng"  href="assets/media/chapter-2-diagram.svg.png" media-type="image/png"/>
+<item id="assetsmediachapteraboutsvgpng"  href="assets/media/chapter-about.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterabstractionssvgpng"  href="assets/media/chapter-abstractions.svg.png" media-type="image/png"/>
+<item id="assetsmediachapteranaphoriccmavosvgpng"  href="assets/media/chapter-anaphoric-cmavo.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterattitudinalsgif"  href="assets/media/chapter-attitudinals.gif" media-type="image/gif"/>
+<item id="assetsmediachaptercataloguesvgpng"  href="assets/media/chapter-catalogue.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterconnectivessvgpng"  href="assets/media/chapter-connectives.svg.png" media-type="image/png"/>
+<item id="assetsmediachaptergrammarssvgpng"  href="assets/media/chapter-grammars.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterletteralssvg"  href="assets/media/chapter-letterals.svg" media-type="image/svg"/>
+<item id="assetsmediachapterletteralssvgpng"  href="assets/media/chapter-letterals.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterlujvosvgpng"  href="assets/media/chapter-lujvo.svg.png" media-type="image/png"/>
+<item id="assetsmediachaptermeksogif"  href="assets/media/chapter-mekso.gif" media-type="image/gif"/>
+<item id="assetsmediachaptermorphologygif"  href="assets/media/chapter-morphology.gif" media-type="image/gif"/>
+<item id="assetsmediachapternegationgif"  href="assets/media/chapter-negation.gif" media-type="image/gif"/>
+<item id="assetsmediachapterphonologygif"  href="assets/media/chapter-phonology.gif" media-type="image/gif"/>
+<item id="assetsmediachapterquantifiersgif"  href="assets/media/chapter-quantifiers.gif" media-type="image/gif"/>
+<item id="assetsmediachapterrelativeclausessvgpng"  href="assets/media/chapter-relative-clauses.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterselbrisvgpng"  href="assets/media/chapter-selbri.svg.png" media-type="image/png"/>
+<item id="assetsmediachapterstructuresvg"  href="assets/media/chapter-structure.svg" media-type="image/svg"/>
+<item id="assetsmediachapterstructuresvgpng"  href="assets/media/chapter-structure.svg.png" media-type="image/png"/>
+<item id="assetsmediachaptersumtitcitagif"  href="assets/media/chapter-sumti-tcita.gif" media-type="image/gif"/>
+<item id="assetsmediachaptersumtigif"  href="assets/media/chapter-sumti.gif" media-type="image/gif"/>
+<item id="assetsmediachaptertensesgif"  href="assets/media/chapter-tenses.gif" media-type="image/gif"/>
+<item id="assetsmediachaptertoursvgpng"  href="assets/media/chapter-tour.svg.png" media-type="image/png"/>
+<item id="assetsmedialogopng"  href="assets/media/logo.png" media-type="image/png"/>
+<item id="assetsfontslinuxlibertineLinBiolinumKotf"  href="assets/fonts/linux-libertine/LinBiolinum_K.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinBiolinumRotf"  href="assets/fonts/linux-libertine/LinBiolinum_R.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinBiolinumRBotf"  href="assets/fonts/linux-libertine/LinBiolinum_RB.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinBiolinumRIotf"  href="assets/fonts/linux-libertine/LinBiolinum_RI.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineDRotf"  href="assets/fonts/linux-libertine/LinLibertine_DR.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineIotf"  href="assets/fonts/linux-libertine/LinLibertine_I.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineMotf"  href="assets/fonts/linux-libertine/LinLibertine_M.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineRotf"  href="assets/fonts/linux-libertine/LinLibertine_R.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineRBotf"  href="assets/fonts/linux-libertine/LinLibertine_RB.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineRBIotf"  href="assets/fonts/linux-libertine/LinLibertine_RBI.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineRIotf"  href="assets/fonts/linux-libertine/LinLibertine_RI.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineRZotf"  href="assets/fonts/linux-libertine/LinLibertine_RZ.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontslinuxlibertineLinLibertineRZIotf"  href="assets/fonts/linux-libertine/LinLibertine_RZI.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontscrisaregularotf"  href="assets/fonts/crisa-regular.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontsnotocjkkoreanserifotf"  href="assets/fonts/noto-cjk-korean-serif.otf" media-type="application/x-font-opentype"/>
+<item id="assetsfontsnotocjksimplifiedchineseserifotf"  href="assets/fonts/noto-cjk-simplified-chinese-serif.otf" media-type="application/x-font-opentype"/>
+<item id="go01html"  href="go01.html" media-type="application/xhtml+xml"/>
+<item id="indexhtml"  href="index.html" media-type="application/xhtml+xml"/>
+<item id="ix01html"  href="ix01.html" media-type="application/xhtml+xml"/>
+<item id="ix02html"  href="ix02.html" media-type="application/xhtml+xml"/>
+<item id="sectionalice01html"  href="section-alice01.html" media-type="application/xhtml+xml"/>
+<item id="sectionforestnymphhtml"  href="section-forest-nymph.html" media-type="application/xhtml+xml"/>
+<item id="sectioninxanaduhtml"  href="section-in-xanadu.html" media-type="application/xhtml+xml"/>
+<item id="sectionterryhtml"  href="section-terry.html" media-type="application/xhtml+xml"/>
+<item id="volumechrestomathyhtml"  href="volume-chrestomathy.html" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref linear="yes" idref="cover"/>
+    <itemref linear="yes" idref="indexhtml"/>
+<itemref linear="yes" idref="volumechrestomathyhtml"/>
+<itemref linear="yes" idref="sectionterryhtml"/>
+<itemref linear="yes" idref="sectionforestnymphhtml"/>
+<itemref linear="yes" idref="sectionalice01html"/>
+<itemref linear="yes" idref="sectioninxanaduhtml"/>
+<itemref linear="yes" idref="go01html"/>
+<itemref linear="yes" idref="ix01html"/>
+<itemref linear="yes" idref="ix02html"/>
+  </spine>
+</package>
